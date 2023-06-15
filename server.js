@@ -65,7 +65,7 @@ app.use(morgan('combined', { stream: accessLogStream }));
 
 app.use(
   cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://main--splendid-nasturtium-31627d.netlify.app',
     methods: ['POST', 'PUT', 'GET', 'OPTIONS', 'HEAD'],
     credentials: true,
   })
